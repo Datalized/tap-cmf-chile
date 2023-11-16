@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "Fecha": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "Valor": {
+            "type": [
+                "null",
+                "number"
+            ]
+        }
+    }
+}
