@@ -37,6 +37,8 @@ class TapCMFChileAPIV3(Tap):
         """
         return [
             streams.UFStream(self),
+            streams.UTMStream(self),
+            streams.DolarStream(self),
         ]
 
 
